@@ -49,8 +49,3 @@ MyDocument.getInitialProps = async (ctx) => {
     ],
   };
 };
-
-Document.getIntialProps = async (ctx) => {
-  const originalRenderPage = ctx.renderPage;
-  const cache = createCache;
-};
